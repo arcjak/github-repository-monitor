@@ -1,0 +1,54 @@
+
+.app {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+}
+
+.app h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.app p {
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.search-form label {
+    font-weight: 600;
+}
+
+.search-form input {
+    padding: 12px;
+    border: 1px solid #666;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.search-form button {
+    margin-top: 12px;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: #dc2626;
+    font-weight: 500;
+}
+
+.search-form button:hover {
+    background-color: #1d4ed8;
+}
